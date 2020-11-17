@@ -5,4 +5,4 @@ Login Page implemented by ReactJs
 
 Dependencies
 * Bootstrap 4
-![Image text](https://github.com/tingwei0501/LoginPage/blob/main/design.PNG)
+![Image text](https://github.com/tingwei0501/LoginPage/blob/main/designUI.PNG)
