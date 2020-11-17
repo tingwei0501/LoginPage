@@ -1,0 +1,31 @@
+.account-wrapper {
+  position: relative;
+}
+
+.account-wrapper .check {
+  position: absolute;
+  right: -10px;
+  bottom: -25px;
+  filter: drop-shadow(0px 6px 3px #84c1e0);
+  /* drop-shadow: 3px 3px 12px #cce6f3; */
+}
+
+.account-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  min-height: 150px;
+  background: none;
+  border: 2px solid #dcdcdc;
+  border-radius: 5px;
+}
+
+.account-type.active {
+  border-color: #cce6f3;
+}
+
+button.account-type {
+  outline: none;
+}

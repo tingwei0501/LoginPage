@@ -1,0 +1,85 @@
+.login-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border-right: none;
+}
+
+.email-group {
+  position: relative;
+}
+
+.pwd-group {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  z-index: 1000;
+  top: -14px;
+  left: 15px;
+  font-size: 6px;
+  background-color: rgb(56, 181, 237);
+  color: white;
+  width: max-content;
+  border-color: rgb(56, 181, 237);
+  border-width: 8px;
+  height: 20px;
+  border-radius: 4px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+}
+
+.label.error {
+  background-color: #ed386c;
+  border-color: #ed386c;
+}
+
+.input-group.mb-2.focus {
+  border-color: rgb(56, 181, 237);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.input-group.mb-2.focus.error {
+  border-color: #ed386c;
+}
+
+.form-control {
+  border-left: none;
+}
+
+.form-control:focus {
+  border-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.input-group-button {
+  background-color: transparent;
+  color: rgb(56, 181, 237);
+  border: hidden;
+  font-size: 10px;
+}
+
+.eye {
+  background-color: transparent;
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+  border-width: 1px;
+  border-color: #bdbdbd;
+}
+
+.input-group-append {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #bdbdbd;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
